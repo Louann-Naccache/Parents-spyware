@@ -1,0 +1,11 @@
+echo "Execute me line by line. Stands for command line manual"
+echo "install ngrok"
+echo "connect to https://dashboard.ngrok.com/get-started/setup/windows"
+
+echo "cmd.exe python server.py
+echo "cmd.exe ngrok config add-authtoken 3BDEY1e4CyQuJBK4NemcM9rPQ0H_2CVvtc8chD31Ajvuw72Ug
+echo "cmd.exe ngrok http 5000
+
+python server.py
+ngrok config add-authtoken 3BDEY1e4CyQuJBK4NemcM9rPQ0H_2CVvtc8chD31Ajvuw72Ug
+ngrok http 80
